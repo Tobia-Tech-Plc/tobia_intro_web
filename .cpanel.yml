@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/repositories/tobia_intro_web/
+    - export DEPLOYPATH=/home/tobiaio/repositories/tobia_intro_web/
     - /bin/cp -R * $DEPLOYPATH
     

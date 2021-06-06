@@ -11,6 +11,13 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  /* overflow-y: hidden; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
